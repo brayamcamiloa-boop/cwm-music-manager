@@ -10,7 +10,7 @@ La página de presentación se construye con Vite desde `website.html`. GitHub A
 
 ## Aplicación para Windows
 
-Descarga el instalador disponible en [Releases](https://github.com/brayamcamiloa-boop/desktop-tutorial/releases).
+Descarga el instalador disponible en [Releases](https://github.com/brayamcamiloa-boop/cwm-music-manager/releases).
 
 ## Desarrollo local
 

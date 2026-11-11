@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './website.css';
 
-const DOWNLOAD_URL = 'https://github.com/brayamcamiloa-boop/desktop-tutorial/releases/download/v1.0.1/CWM-Setup-1.0.1.exe';
+const DOWNLOAD_URL = 'https://github.com/brayamcamiloa-boop/cwm-music-manager/releases/download/v1.0.1/CWM.Setup.1.0.1.exe';
 
 const features = [
   {
@@ -77,7 +77,7 @@ function Logo({ light = false }) {
 
 function DownloadLink({ className = '', children }) {
   return (
-    <a className={className} href={DOWNLOAD_URL} download="CWM-Setup-1.0.1.exe">
+    <a className={className} href={DOWNLOAD_URL} download="CWM.Setup.1.0.1.exe">
       {children}
     </a>
   );
