@@ -3,7 +3,7 @@ const react = require('@vitejs/plugin-react');
 
 module.exports = defineConfig({
   plugins: [react()],
-  base: '/desktop-tutorial/',
+  base: '/cwm-music-manager/',
   publicDir: false,
   build: {
     rollupOptions: {
